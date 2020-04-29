@@ -15,7 +15,6 @@ public class Progress {
         return progressDialog;
     }
 
-
     public static void showProgress(boolean show, String message) {
 
         if (show)
