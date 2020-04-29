@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/filter"
+        android:icon="@drawable/filter"
+        android:title="filter"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/showAll"
+                android:title="Show All" />
+
+            <item
+                android:id="@+id/books"
+                android:icon="@drawable/ic_books"
+                android:title="Books" />
+
+            <item
+                android:id="@+id/tech"
+                android:icon="@drawable/ic_devices"
+                android:title="Gadgets" />
+
+            <item
+                android:id="@+id/room"
+                android:icon="@drawable/ic_home"
+                android:title="Room" />
+
+            <item
+                android:id="@+id/sports"
+                android:icon="@drawable/ic_sports"
+                android:title="Sports" />
+
+            <item
+                android:id="@+id/apparel"
+                android:icon="@drawable/ic_apparel"
+                android:title="Apparel" />
+
+            <item
+                android:id="@+id/others"
+                android:icon="@drawable/ic_others"
+                android:title="Others..." />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/price"
+        android:title="Price" />
+
+    <item
+        android:id="@+id/stars"
+        android:title="Stars" />
+
+    <item
+        android:id="@+id/posted_date"
+        android:title="Posted date(default)" />
+
+</menu>
