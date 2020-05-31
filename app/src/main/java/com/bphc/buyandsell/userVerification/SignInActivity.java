@@ -135,6 +135,7 @@ public class SignInActivity extends AppCompatActivity {
         webServices = retrofit.create(WebServices.class);
 
         Progress.showProgress(true, "Loading...");
+
         Call<UserResponse> call = webServices.postUserAuthDetails(user_email, id_token, 1);
         call.enqueue(new Callback<UserResponse>() {
             @Override
